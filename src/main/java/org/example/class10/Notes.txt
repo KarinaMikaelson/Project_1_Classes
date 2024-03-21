@@ -1,0 +1,12 @@
+What is OOPs (Object Oriented Programming):
+- It is a way or writing code
+
+Why to learn OOPs;
+1) Inheritance - It helps us to reduce the code duplication
+2) Polymorphism - Helps to write dynamic code
+3) Modular code - easy to change, easy to understand
+4) Encapsulation - Helps write secure code
+
+Class:
+- A class represents objects which have similar properties and behaviors
+-

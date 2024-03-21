@@ -1,0 +1,4 @@
+Loops in programming:
+    Loops help us execute a block of command again and again
+    until the condition is met, Once condition is met the loop stops.
+

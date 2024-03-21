@@ -1,0 +1,32 @@
+Type Casting:
+   Type Casting - is moving the data from one data type to another.
+   Widening/auto/implicit - when we move something from a SMALL data type to a LARGER data type.
+   Narrowing/manual - when we move data from LARGE data type to SMALL data type.
+
+ Data Types from smaller to larger:
+    byte-> short-> int->long-> float-> double
+
+ Why to use Type Casting?:
+   1.  Type casting helps a programmer convert any given data type to any other data type in a program.
+   2.  It makes any given program very lightweight.
+   3.  Using type casting, one can take advantage of several features, such as arithmetic conversion
+       hierarchy and type representations.
+
+ Relational Operators:
+   1. Relational Operators helps us to compare data.
+      == if smth is same or not
+      != if smth is not same
+
+      Result is always boolean (true/false)
+
+ If statements:
+    1.The if-else statement helps you to run a specific block of a program if the condition is true or else,
+      it will check other conditions.
+    2.,It is used to control the flow or to determine the rules in a program
+
+    Java has the following conditional statements:
+
+    Use "if" to specify a block of code to be executed, if a specified condition is true
+    Use "else" to specify a block of code to be executed, if the same condition is false
+    Use "else if" to specify a new condition to test, if the first condition is false
+    Use "switch" to specify many alternative blocks of code to be executed
