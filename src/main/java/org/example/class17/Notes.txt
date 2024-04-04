@@ -1,0 +1,41 @@
+Inheritance OOPS:
+ - Inheritance is an important pillar of OOP(Object-Oriented Programming)
+ - It is the mechanism by which one class is allowed to inherit the features(fields and methods) of another class.
+ - Inheritance means creating new classes based on existing ones.
+ - A class that inherits from another class can reuse the methods and fields of that class.
+ - In addition, you can add new fields and methods to your current class as well.
+
+Why to use?:
+ - It helps us save a lot of code repetition.
+ - Code Reusability: The code written in the Superclass is common to all subclasses.
+   Child classes can directly use the parent class code.
+ - Method Overriding: Method Overriding is achievable only through Inheritance.
+   It is one of the ways by which Java achieves Run Time Polymorphism.
+ - Abstraction: The concept of abstract where we do not have to provide all details is achieved through inheritance.
+   Abstraction only shows the functionality to the user.
+
+ Rules:
+ - All the private members (instance var, method) Can't be used through inheritance.
+ - Better to use Protected
+
+SuperKeyword:
+ - super - in method, will priorities parent class
+
+
+ Important Terminologies Used in Java Inheritance:
+  - Class: Class is a set of objects which shares common characteristics/ behavior and common properties/ attributes.
+    Class is not a real-world entity.
+    It is just a template or blueprint or prototype from which objects are created.
+  - Super Class/Parent Class: The class whose features are inherited is known as a superclass(or a base class or a parent class).
+  - Sub Class/Child Class: The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class).
+  - The subclass can add its own fields and methods in addition to the superclass fields and methods.
+  - Reusability: Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already
+    a class that includes some of the code that we want, we can derive our new class from the existing class.
+    By doing this, we are reusing the fields and methods of the existing class.
+
+ Inheritance Types: (4 supported by Java)
+ - Single Inheritance (only one child, example: Animal -> Dog)
+ - Hierarchical Inheritance (more than one child)
+ - Multiple Inheritance (not used in Java)
+ - Hybrid Inheritance
+ - Multilevel Inheritance

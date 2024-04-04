@@ -1,0 +1,14 @@
+Access Modifier;
+       1. Public
+       2. Private
+       3. Default
+       4. Protected
+
+Access Modifiers
+       - are basically keywords in java that help u control what can be accesses outside
+         the class like fields and methods.
+
+Constructors:
+       - Constructors help us build the object of a class easily.
+       - They are special block of code which are created to give initial values to the instance variables.
+

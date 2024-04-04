@@ -1,0 +1,14 @@
+Constructor:
+- Help us build the Object of the class easily
+- When we build the object most of the times it means we are initializing t9he instance variables
+- Can be multiple
+- Has to be with different amount of values
+
+Why use Constructor?:
+   -  Its more readable, clean, neat
+   -  More secure
+
+Rules:
+ - Constructors does not have return type not even void
+ - Have name the same as Class name
+ - Can have parameters like methods

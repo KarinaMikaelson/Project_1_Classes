@@ -1,0 +1,7 @@
+Nested Loops:
+ - A loop inside another loop is called a nested loop
+ - We can Nest any loop inside any other loop.
+Why should we learn about Nested Loops:
+ - WE need Nested loops to go through multiple levels of data, for example, we might want to go
+   through the main categories of items, and we might want to go through individual items in each list.
+ - We also need Nested loops to process data which have multiple levels like a 2D array or an Excel sheet.

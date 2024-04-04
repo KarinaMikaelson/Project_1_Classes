@@ -1,0 +1,41 @@
+Methods in Java;
+- Methods are blocks of codes which contain some java statements.
+- Whenever we call method
+- reverse method is only available only in StringBuilder (its mutable)
+
+
+- Palindrome String - A string is said to be palindrome if it remains the same on reading from both ends.
+  It means that when you reverse a given string, it should be the same as the original string.
+
+
+String VS StringBuilder:
+- String - Immutable: In Java, a String is an immutable object.
+This means that once a String object is created, its content cannot be changed.
+Any operation that seems to modify a String actually creates a
+new String object with the modified content, leaving the original String unchanged.
+- String - saves space, slow
+
+- Mutable: StringBuilder in Java is designed to be mutable.
+It allows you to modify the contents of the string without creating new String objects.
+The modifications are done in the same memory location, making it more memory-efficient.
+- StringBuilder - takes more memory each time i create new object
+- Fast
+
+
+Methods in Java:
+Are blocks of code which contain some java statements. Whene call a method, those statements are executed. Methods have n€ we use these names to call them.
+String Class:
+UpSide:
+- It is designed to save space.
+Downside:
+- Its immutable (not changeable) and slow.
+StringBuilder:
+ UpSide:
+- It's Fast and changeable.(mutable)
+ Downside:
+- Not optimized for space-saving.
+
+Methods have two types:
+- void add -only use to execute actions (does not return anything, only performs action)
+  void print()
+ void - written type, print - method, () - parentheses {} - boundary

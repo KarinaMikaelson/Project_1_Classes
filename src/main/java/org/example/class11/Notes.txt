@@ -1,0 +1,26 @@
+String Class:
+- String is the most widely used class in Java
+- It contains a lot of methods which can help us process text very easily
+
+
+What are Methods? - behaviors/actions
+What are Objects?
+What are Atributes?
+
+
+
+Mrthods:
+- length
+- is.Empty
+- toUpperCase
+- toLowerCase
+- trim
+- startsWith
+- endWith - // use boolean to check
+- equals
+- equalsIgnoreCase
+- charAt
+- indexOf
+- substring
+- replace
+- charAt
