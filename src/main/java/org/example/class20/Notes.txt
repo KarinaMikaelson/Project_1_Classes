@@ -1,0 +1,21 @@
+Abstraction;
+- is a process of hiding the implementation details and showing only functionality(method header) to the user.
+- For example sending sms, you just type the text and send the message.
+- You don't know the internal processing about the message delivery.
+- Abstraction is the process of separating ideas from their action.
+
+Abstract methods ( header without the body) -
+- to enforce  child classes to use it
+- if you want to avoid using abstract method in a child class, we should make this class also abstract
+
+Interview QUIZZ:
+1. Can we create an object of the abstract class?
+  - No, it is not allowed as we might have some unimplemented methods in abstract class.
+2. Can we have instance vars in the abstract class?
+  - No, but we can use Child classes using Constructors
+3. Do we use final keyword with abstract method?
+  -No, its contradictive, child classes will not be allowed to override
+4. Can we make abstract method as private?
+  - No, child classes wont have an access, and won't to be Override
+5. Can we have static methods in abstract methods?
+  - Yes

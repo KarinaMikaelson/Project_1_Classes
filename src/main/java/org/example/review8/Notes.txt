@@ -1,0 +1,111 @@
+What is Method Overloading?:
+               1.  Method Overloading is a concept in Object Oriented Programming
+                   where multiple methods can have the same name but different parameters.
+               2.  This allows us to use the same method name for different behaviors depending
+                   on the types or numbers of parameters passed to it.
+
+    Why should we use Method Overloading?:
+               1.  Method overloading provides flexibility and improves code readability.
+               2.  It allows you to use a single method name for related functionalities,
+                   making the code easier to understand and maintain.
+               3.  Overloading also enables polymorphism, allowing you to perform different actions
+                   based on the context without needing different method names.
+         Rules:
+                  1.  We can only overload by changing parameters.
+                  2.  Changing the access modifiers or the return types or the static keyword or final keyword is not going to play any role in overloading.
+                  3.  We can change the parameters in three ways.
+                      By changing the number of parameters.
+                      By changing the data types of the parameters.
+                      By Changing the sequence of parameters.
+
+         Rules chatGPT:
+                  1.  Methods must have the same name.
+                  2.  Methods must differ either in the number of parameters or in the types of parameters.
+                  3.  Return type alone is not sufficient to differentiate overloaded methods.
+                  4.  Methods can be overloaded within the same class or in a subclass.
+                  5.  Overloaded methods can have different access modifiers.
+                  6.  Overloaded methods can throw different checked or unchecked exceptions.
+                  7.  Overloading can occur in both static and non-static methods.
+
+What is Method Overriding:
+               1.  Method overriding is a concept in object-oriented programming where a subclass provides
+                   a specific implementation of a method that is already defined in its superclass.
+               2.  This allows the subclass to provide its own behavior for the method while maintaining the same method signature as the superclass.
+               3.  Overriding enables polymorphism, where a reference variable of a superclass type can refer to a subclass object and invoke the
+                   overridden method, executing the subclass's implementation.
+
+    Why should we Override Methods?:
+
+               1.  Method Overriding allows subclasses to provide their own implementation of methods defined int their Superclass.
+               2.  This is useful for Polymorphism
+
+         Rules:    1) The header of the method that we are overriding should be same as the header of the method in the parent class.
+                   2) We can't override the static methods.
+                   3) private methods can't be overridden.
+                   4) Constructors can't be overridden.
+
+        Rules ChatGPT:
+                 1.	The method in the subclass must have the same name, parameters, and return type as the method in the superclass.
+                 2.	The method in the subclass must have the same or wider accessibility (i.e., equal or broader access modifier) as the method in the superclass.
+                 3.	Methods declared as final or static in the superclass cannot be overridden.
+                 4.	Constructors and private methods cannot be overridden as they are not inherited.
+                 5.	The method in the subclass must not throw checked exceptions that are broader than the ones thrown by the method in the superclass.
+                   	However, the subclass method can throw narrower or unchecked exceptions.
+                 6.	The method in the subclass can invoke the superclass’s version of the method using the super keyword.
+                 7.	The @Override annotation can be used to indicate that a method is intended to override a method in the superclass.
+                   	While not strictly necessary, it helps catch errors at compile-time if the method signature does not match any method in the superclass.
+
+Polymorphism:
+              1.  It allows us to write dynamic code. Same method when called using a different object behaves differently.
+              2.  Polymorphism allows objects of different types to be treated as objects of a common superclass or interface, promoting code flexibility and re-usability.
+
+    Why should we use PolyMorphism:
+          ChatGPT:
+              1. Polymorphism promotes code flexibility, re-usability, and extensibility by allowing objects of different types to be treated uniformly through a common interface.
+              2. It simplifies code maintenance and promotes modular design, as changes to one part of the codebase can be applied uniformly across related classes.
+              3. Polymorphism also facilitates the implementation of design patterns and promotes a cleaner, more maintainable code structure.
+          Class
+              1. It helps us avoid code repetition if we are performing the same operation in a different way we do not need to copy/paste
+                 the entire code we can use PolyMorphism.
+       Rules:
+              1. We must have a common parent either a class or an interface.
+              2. Polymorphism is not possible, without overriding methods.
+
+"final" keyword:
+              There are 3 uses of this keyword:
+                     1.  When used with a var once the value to the var is assigned, it can't be changed.
+                     2.  When used with a method, no child class will be able to override this method
+                     3.  When used with a class no other class will be able to inherit from that class.
+
+Abstraction:
+              1. Abstraction allows simplifying coding.
+              2. We can use Abstraction to focus only on the functionality instead of the implementation.
+
+    Why use Abstraction?:
+              1. It helps us write modular code and help us keep everyone on the same page.
+         Rules:
+              1. We can't have body with abstract method
+              2. "final" keyword can't be used with abstract methods
+              3. private keyword can't be used with abstract methods
+              4. static keyword is not allowed as we can't override static methods
+              5. We can't create an object of Abstract class
+
+Interfaces:
+              1. They are very similar to abstract classes but can only have public, static, final vars
+                 and all the methods by default are abstract.
+         Rules:
+              1. We cannot have instance vars.
+              2. We cannot  have constructors.
+              3. We cannot create object of interface
+              4. We cannot have instance methods.
+
+    How to know when to use Abstract or Interface?:
+
+              1. Interface - when we don't want inheritance
+Encapsulation:
+         1. Encapsulation says make your fields private and create getter setter methods.
+   Why Encapsulation?
+         1. It helps us write secure code.
+
+
+

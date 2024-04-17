@@ -1,0 +1,26 @@
+Polymorphism:
+- greek work for poly - "many", morph - "form"
+- The ability of an object to identify as more than one type
+
+KEYWORDS:
+- super
+- this
+- final
+
+Object type casting:
+- Allows to store value from one data type to another data type
+
+--Private --> Default --> Protected --> Public
+We can increase the visibility, but not the way back
+
+--@Override  - annotation will help to Override methods without mistakes
+
+------Interview Questions:
+- If a method is Private in Parent Class, can we override it in Child class?
+-NO
+- Can we override Constructors?
+-No, every class have it's own Constructor
+- Can we Override static methods?
+-No. We can re-declare them.
+- A method declared final, can not be overridden
+- Can we Override default methods?

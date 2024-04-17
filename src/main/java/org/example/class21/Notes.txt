@@ -1,0 +1,28 @@
+Interface:
+    Interfaces are like contracts, they can contain abstract methods and constant variables.
+ Not allowed in Interfaces:
+    - No body
+    - default access modifier for Interface is: - public
+    - no other Access Modifiers are allowed
+    - Instance var are not allowed
+    - No constructors allowed
+    - Methods not allowed
+    - private and protected keywords not allowed
+
+Allowed:
+    - public static final var
+    - public static methods are allowed
+
+When we should use Interface?:
+    When classes are closely related to each other we should go with ABSTRACT classes as
+    we will be able to use inheritance to avoid code repetition,
+    and when child classes are not realted to each other then we should go with interfaces.
+
+Encapsulations:
+      The main advantage of using of encapsulation is to secure the data from other methods,
+      when we make a data private then these data only use within the class, but these data
+      not accessible outside the class.
+To achieve encapsulation in Java
+• Declare the variables of a class as private.
+• Provide public setter and getter methods to
+modify and view the variables values.

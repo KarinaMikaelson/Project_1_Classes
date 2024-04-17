@@ -1,0 +1,24 @@
+Java prioritize:
+   1. Local Var
+   2. Instance Var
+   3. Parent Instance Var
+Super Keyword:
+- Is used to explicitly refer to the instance var from parent class
+- It is also used to call the constructor from the parent class
+
+This keyword:
+- this keyword - when we want to use instance var
+
+Local var name:
+- Java gives prioritize Local var first, then instance var, and then parent instance
+- name - when you want tp use  local var
+
+How Inheritance work?:
+- When ever we use Inheritance the objects of the parent classes are created first.
+- If we don't create any constructor, Java will create default constructor to create this objects.
+- When we create our own constructor, then Java is not going to do this, we have to do it ourselves.
+
+Method Overloading:
+- Method Overloading allows us to have multiple methods with same name inside a class
+Why should we Overload?
+- It gives more flexibility to users. Users don't need to memorize a lot of different method names.
