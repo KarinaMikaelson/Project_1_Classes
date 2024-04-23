@@ -1,0 +1,7 @@
+FileHandling:
+          FileHandling simply means reading/writing data to files.
+     Steps:
+          1.  We need to know location of the file
+          2.  Navigate to that location
+          3.  We need proper software/programs to read/write to the files
+     Configuration Files:

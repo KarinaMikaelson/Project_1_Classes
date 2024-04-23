@@ -1,0 +1,11 @@
+Maps:
+      1. Maps allows us to store two things at a time.
+      2. One is called the key
+      3. Another is called the value.
+      4. We can not convert Map to List directly
+
+
+    There are three types of Maps:(Not part of the Collection Framework)
+          HashMap
+          LinkedHashMap
+          ThreeMap

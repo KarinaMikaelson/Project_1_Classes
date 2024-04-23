@@ -1,0 +1,34 @@
+List (Interface): ArrayList( Class) and LinkedList (Class)- have the same methods.
+           List Properties:
+               1. Insertion order is maintained.(Order)
+               2. Duplicates are allowed
+               3. Can be converted to any other class (List etc)
+           ArrayList:
+               Upside:
+                    Very fast when accessing the elements.
+               Downside:
+                    Really slow when we have to add or remove elements.
+           LinkedList:
+               Upside:
+                    Really fast when we have to add or remove the element
+               Downside:
+                    Very Slow when accessing the elements.
+Set (Interface) properties:
+               1. They do not allow duplicates.
+               2. They don't store the data based on index.
+
+           HashSet (Class):
+               Upside:
+                      Fast
+               Downside
+                      Doesn't remember the insertion order.
+           LinkedHashSet( Class):
+               Upside:
+                     It remembers the order.
+               Downside:
+                     It's a little slower than HashSet.
+           TreeSet:
+               Upside:
+                     It keeps Data sorted.
+               Downside:
+                     Insertion is very very slow.
