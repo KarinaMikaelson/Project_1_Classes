@@ -4,4 +4,15 @@ FileHandling:
           1.  We need to know location of the file
           2.  Navigate to that location
           3.  We need proper software/programs to read/write to the files
-     Configuration Files:
+Configuration Files:
+       -  These are used to store sensitive information about the projects/frameworks
+       -   As a Tester we will be storing our usernames, passwords, urls, browser etc.
+Microsoft XL/or WPS files
+
+
+utils class
+
+
+NOTE. It is always a bad idea to hardcode constants data in each method/class.
+      It is BETTER to have constants in constants utils to re-use this methods in all projects.
+      Constants variables names are always start UpperCase
